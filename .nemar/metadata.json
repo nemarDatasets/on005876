@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Song Familiarity",
+  "description": "This dataset comprises EEG recordings from 29 participants who listened to song melodies and made familiarity judgments. Participants indicated when songs felt familiar, attempted to identify songs by title, artist, or lyrics, and selected from multiple-choice options with visual feedback. Song stimuli were derived from Kostic and Cleary (2009), and synchronized audio reconstructions of each participant's experimental session are provided in the derivatives folder.",
+  "methods_description": "Participants listened to song melodies and responded when songs felt familiar. After familiarity judgment, participants attempted verbal identification of songs (title, artist, or lyrics). Participants then selected from a four-option multiple-choice display with visual feedback (correct: green highlight with checkmark; incorrect: red highlight with x). EEG recordings were synchronized with audio reconstructions of the experimental stimuli.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,24 @@
     "Aaron M. Bishop": {},
     "Cameron D. Hassall": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005876.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "music perception"
+    },
+    {
+      "term": "familiarity judgment"
+    },
+    {
+      "term": "song recognition"
+    },
+    {
+      "term": "auditory processing"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005876",
       "identifier_type": "URL",
@@ -29,15 +43,20 @@
       "identifier": "10.1037/a0014584",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005876.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "8.1 GB (211 files)"
   ],
   "formats": [
     ".fdt",
@@ -47,29 +66,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".wav"
+    ".wav",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from 29 participants performing a song familiarity recognition task. Participants listened to song melodies and indicated when songs became familiar, followed by identification attempts and multiple-choice recognition with visual feedback. The study investigates neural correlates of music familiarity and recognition processes using synchronized EEG and audio recordings.",
-  "methods_description": "Participants listened to song melodies presented as audio stimuli and responded when songs felt familiar. Following familiarity detection, participants attempted to identify songs by title, artist, or lyrics. A multiple-choice recognition phase presented four song titles with visual feedback (green checkmark for correct, red X for incorrect selections). EEG was recorded synchronously with audio stimuli, with reconstructed audio files available in the derivatives folder.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "music perception"
-    },
-    {
-      "term": "familiarity recognition"
-    },
-    {
-      "term": "auditory processing"
-    },
-    {
-      "term": "memory"
-    },
-    {
-      "term": "event-related potentials"
-    }
-  ],
-  "source_hash": "15393c2fed38807e0e7bd0cabafd29ad7e7535f559d40ecac905cc1b62160081"
+  "source_hash": "2fbdb5ddd3bf9e661ed4f4f8a138c9f6e2d209ef7a469e53d6fcccdbb9ba9131"
 }
