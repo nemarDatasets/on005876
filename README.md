@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005876-blue)](https://doi.org/10.82901/nemar.on005876)
+
 # Song Familiarity
 
 Twenty-nine participants listened to song melodies and responded as soon as the song felt familiar. Participants were then asked to identify the song, if possible (title, artist, or lyrics). Next, participants were shown a multiple choice display with four song titles, selected a song title, and were given visual feedback (correct: selected option turned green and a checkmark appeared next to the title; incorrect: selected option turned red and an x appeared next to the title.)
