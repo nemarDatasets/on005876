@@ -1,31 +1,75 @@
 {
   "version": "2.0",
-  "dataset_id": "on005876",
-  "source": "openneuro",
-  "source_id": "ds005876",
+  "pipeline_stage": "validated",
   "title": "Song Familiarity",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Jared R. Girard": {},
     "Aaron M. Bishop": {},
     "Cameron D. Hassall": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005876.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005876",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005876",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1037/a0014584",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".flac",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".wav"
+  ],
+  "description": "This dataset comprises EEG recordings from 29 participants performing a song familiarity recognition task. Participants listened to song melodies and indicated when songs became familiar, followed by identification attempts and multiple-choice recognition with visual feedback. The study investigates neural correlates of music familiarity and recognition processes using synchronized EEG and audio recordings.",
+  "methods_description": "Participants listened to song melodies presented as audio stimuli and responded when songs felt familiar. Following familiarity detection, participants attempted to identify songs by title, artist, or lyrics. A multiple-choice recognition phase presented four song titles with visual feedback (green checkmark for correct, red X for incorrect selections). EEG was recorded synchronously with audio stimuli, with reconstructed audio files available in the derivatives folder.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "music perception"
+    },
+    {
+      "term": "familiarity recognition"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "memory"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "source_hash": "15393c2fed38807e0e7bd0cabafd29ad7e7535f559d40ecac905cc1b62160081"
 }
