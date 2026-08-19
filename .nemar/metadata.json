@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Song Familiarity",
-  "description": "This dataset comprises EEG recordings from 29 participants who listened to song melodies and made familiarity judgments. Participants indicated when songs felt familiar, attempted to identify songs by title, artist, or lyrics, and selected from multiple-choice options with visual feedback. Song stimuli were derived from Kostic and Cleary (2009), and synchronized audio reconstructions of each participant's experimental session are provided in the derivatives folder.",
-  "methods_description": "Participants listened to song melodies and responded when songs felt familiar. After familiarity judgment, participants attempted verbal identification of songs (title, artist, or lyrics). Participants then selected from a four-option multiple-choice display with visual feedback (correct: green highlight with checkmark; incorrect: red highlight with x). EEG recordings were synchronized with audio reconstructions of the experimental stimuli.",
+  "description": "This dataset contains EEG recordings from twenty-nine participants who listened to song melodies and indicated when the melody felt familiar. Participants then attempted to identify each song and selected among multiple-choice song titles, receiving visual feedback on accuracy. The dataset includes synchronized audio reconstructions of the stimuli presented during EEG recording, supporting research on music familiarity, recognition, and associated neural correlates.",
+  "methods_description": "Participants listened to song melodies and responded when the song felt familiar, then attempted to identify the song and selected from a multiple-choice display of song titles, receiving visual feedback (green/checkmark for correct, red/x for incorrect). EEG was recorded during the task and synchronized with an audio reconstruction of the experiment stored in the derivatives folder.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,16 +16,20 @@
       "term": "EEG"
     },
     {
-      "term": "music perception"
-    },
-    {
-      "term": "familiarity judgment"
+      "term": "music familiarity"
     },
     {
       "term": "song recognition"
     },
     {
-      "term": "auditory processing"
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+    },
+    {
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     }
   ],
   "related_identifiers": [
@@ -38,11 +42,6 @@
       "identifier": "https://nemar.org/dataset/on005876",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1037/a0014584",
-      "identifier_type": "DOI",
-      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds005876.v1.0.1",
