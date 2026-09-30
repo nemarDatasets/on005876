@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Song Familiarity",
-  "description": "This dataset contains EEG recordings from twenty-nine participants who listened to song melodies and indicated when the melody felt familiar. Participants then attempted to identify each song and selected among multiple-choice song titles, receiving visual feedback on accuracy. The dataset includes synchronized audio reconstructions of the stimuli presented during EEG recording, supporting research on music familiarity, recognition, and associated neural correlates.",
-  "methods_description": "Participants listened to song melodies and responded when the song felt familiar, then attempted to identify the song and selected from a multiple-choice display of song titles, receiving visual feedback (green/checkmark for correct, red/x for incorrect). EEG was recorded during the task and synchronized with an audio reconstruction of the experiment stored in the derivatives folder.",
+  "description": "EEG recordings from twenty-nine participants who listened to song melodies and responded as soon as a song felt familiar. Participants then tried to identify the song (title, artist, or lyrics) and chose the title from a four-option multiple choice display, receiving visual feedback on correctness. The dataset includes synchronized audio reconstructions of what each participant heard, supporting research on music familiarity and recognition.",
+  "methods_description": "Participants listened to song melodies and indicated when a song felt familiar, then attempted to identify it and selected a title from four options with correct/incorrect visual feedback. Song stimuli were taken from Kostic and Cleary (2009). Audio reconstructions of each participant's experience were synchronized with the EEG recording.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,14 +22,10 @@
       "term": "song recognition"
     },
     {
-      "term": "Auditory Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+      "term": "auditory perception"
     },
     {
-      "term": "Memory",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
+      "term": "memory"
     }
   ],
   "related_identifiers": [
@@ -55,7 +51,7 @@
     "eeg"
   ],
   "sizes": [
-    "8.1 GB (211 files)"
+    "7.51 GB (211 files)"
   ],
   "formats": [
     ".fdt",
